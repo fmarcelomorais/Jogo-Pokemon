@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    display: flex;
+    background-image: url(https://super.abril.com.br/wp-content/uploads/2016/10/super_imgpokemon_go_1.jpg);
+    object-fit:fill;
+  }
+  .container{
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    background-color: rgba(5, 40, 54, 0.719);
+    border-radius: 10px;
+    
+  }
+  .container h1{
+    margin-top: 5%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  .pokemon{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    margin: 40px;
+    
+  }
+  .pokemon img{
+    width: 200px;
+    opacity: 0.2;
+  }
+  .pokemon input{
+    width: 100%;
+    margin:20px;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 15px;
+    text-transform: lowercase;
+    text-align: center;
+  }
+  .pokemon input:hover{
+    font-size: 15px;
+    color: black;
+    font-weight:bold;
+    text-transform: lowercase;
+  }
+  .pokemon button{
+    cursor:pointer;
+    padding:10px;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight:bold;
+    margin-top: 10px;
+  }
+  .pokemon button:hover{
+    color: red;
+    font-weight:bold;
+  }
+  .pontos{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding:  20px;
+    
+  }
+  .pontos p{
+    display: flex;
+    margin-right: 10px;
+  }
+  
